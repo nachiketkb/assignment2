@@ -22,3 +22,10 @@ Bug-fix Branch:Commit 3<br/>
 9. git log<br/>
 10. vi README.md<br/>
 11. git status<br/>
+
+Bug-fix Branch:Commit 4<br/>
+12. git add README.md<br/>
+13. git commit -m "Commit #3:Parent Commit #0:Branch Bug-fix"<br/>
+14. git log<br/>
+15. vi README.md<br/>
+16. git status<br/>
