@@ -32,8 +32,76 @@ Master Branch:Commit 2<br/>
 17. vi README.md<br/>
 18. git status<br/>
 
+Bug-fix Branch:Commit 3<br/>
+19. git checkout -b bug-fix b777c70f0cda838e6a406882b000102bf83c1aa5<br/>
+20. git branch<br/>
+21. git log<br/>
+22. vi README.md<br/>
+23. git status<br/>
+
+Bug-fix Branch:Commit 4<br/>
+24. git add README.md<br/>
+25. git commit -m "Commit #3:Parent Commit #0:Branch Bug-fix"<br/>
+26. git log<br/>
+27. vi README.md<br/>
+28. git status<br/>
+
+Bug-fix Branch: Commmit 5<br/>
+26. git add README.md<br/>
+27. git commit -m "Commit #4:Parent Commit #3:Branch Bug-fix"<br/>
+28. git merge master<br/>
+29. vi README.md<br/>
+30. git status<br/>
+
+Bug-fix Branch: Commit 6<br/>
+31. git add README.md<br/>
+32. git commit -m "Commit #5:Parent Commit merged from #4 #2:Branch Bug-fix"<br/>
+33. git status<br/>
+34. vi README.md<br/>
+35. git status<br/>
+14. git log<br/>
+15. vi README.md<br/>
+16. git status<br/>
+
+Bug-fix-experimental: Commit 7<br/>
+17. git checkout -b bug-fix-experimental f41a49c21b3c555efea5124b2fe463fc6d214fd8<br/>
+18. git branch<br/>
+19. vi README.md<br/>
+20. git status<br/>
+
+Bug-fix-experimental: Commit 8<br/>
+21. git add README.md<br/>
+22. git commit -m "Commit #7:Parent Commit #4:Branch Bug-fix-experimental"
+23. vi README.md<br/>
+24. git status<br/>
+
+Bug-fix-experimental: Commit 9<br/>
+25. git add README.md<br/>
+26. git commit -m "Commit #8:Parent Commit #7:Branch Bug-fix-experimental"
+27. vi README.md<br/>
+28. git status<br/>
+
+Bug-fix: Commit 11<br/>
+26. git merge bug-fix-experimental<br/>
+27. vi README.md<br/>
+28. git status
+
+Bug-fix: Commit 12<br/>
+29. git add README.md<br/>
+30. git commit -m "Commit #11:Parent Commit merged from #9 #2:Branch Bug-fix"<br/>
+31. git status<br/>
+
 Master Branch:Commit 10<br/>
 19. git checkout master<br/>
 20. git branch<br/>
 22. vi README.md</br>
 23. git status<br/>
+
+Master Branch:Commit 13<br/>
+24. git add README.md<br/>
+25. git commit -m "Commit #12:Parent Commit #11:Branch Bug-fix"<br/>
+26. git status<br/>
+27. git checkout master<br/>
+28. git merge bug-fix<br/>
+29. vi README.md<br/>
+30. git status<br/>
