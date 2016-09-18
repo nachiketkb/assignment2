@@ -105,3 +105,10 @@ Master Branch:Commit 13<br/>
 28. git merge bug-fix<br/>
 29. vi README.md<br/>
 30. git status<br/>
+
+Master Branch:Commit 14<br/>
+31. git add README.md<br/>
+32. git commit -m "Commit #13:Parent Commit Merged #12 and #10:Branch Master"<br/>
+33. git status<br/>
+34. vi README.md<br/>
+35. git status<br/>
