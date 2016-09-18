@@ -15,3 +15,12 @@ Master Branch:Commit 0<br/>
 4. touch README.md</br>
 5. vi README.md</br>
 6. git status</br>
+
+Master Branch:Commit 1</br>
+7. git add README.md</br/>
+8. git status</br/>
+9. git commit -m "Commit #0"<br/>
+10. git log --graph --abbrev-commit --decorate --date=relative --all<br/>
+11. git branch<br/>
+12. vi README.md<br/>
+13. git status<br/>
