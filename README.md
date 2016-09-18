@@ -48,7 +48,14 @@ Bug-fix Branch:Commit 4<br/>
 
 Bug-fix Branch: Commmit 5<br/>
 26. git add README.md<br/>
-27. git commit "Commit #4:Parent Commit #3:Branch Bug-fix"<br/>
+27. git commit -m "Commit #4:Parent Commit #3:Branch Bug-fix"<br/>
 28. git merge master<br/>
 29. vi README.md<br/>
 30. git status<br/>
+
+Bug-fix Branch: Commit 6<br/>
+31. git add README.md<br/>
+32. git commit -m "Commit #5:Parent Commit merged from #4 #2:Branch Bug-fix"<br/>
+33. git status<br/>
+34. vi README.md<br/>
+35. git status<br/>
