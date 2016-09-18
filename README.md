@@ -31,3 +31,9 @@ Master Branch:Commit 2<br/>
 16. git commit -m "Commit #1:Parent Commit #0:Branch Master"<br/>
 17. vi README.md<br/>
 18. git status<br/>
+
+Master Branch:Commit 10<br/>
+19. git checkout master<br/>
+20. git branch<br/>
+22. vi README.md</br>
+23. git status<br/>
