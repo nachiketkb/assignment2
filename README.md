@@ -24,3 +24,10 @@ Master Branch:Commit 1</br>
 11. git branch<br/>
 12. vi README.md<br/>
 13. git status<br/>
+
+Master Branch:Commit 2<br/>
+14. git add README.md<br/>
+15. git status<br/>
+16. git commit -m "Commit #1:Parent Commit #0:Branch Master"<br/>
+17. vi README.md<br/>
+18. git status<br/>
