@@ -80,3 +80,13 @@ Bug-fix-experimental: Commit 9<br/>
 26. git commit -m "Commit #8:Parent Commit #7:Branch Bug-fix-experimental"
 27. vi README.md<br/>
 28. git status<br/>
+
+Bug-fix: Commit 11<br/>
+26. git merge bug-fix-experimental<br/>
+27. vi README.md<br/>
+28. git status
+
+Bug-fix: Commit 12<br/>
+29. git add README.md<br/>
+30. git commit -m "Commit #11:Parent Commit merged from #9 #2:Branch Bug-fix"<br/>
+31. git status<br/>
