@@ -40,4 +40,10 @@ Bug-fix-experimental: Commit 8<br/>
 21. git add README.md<br/>
 22. git commit -m "Commit #7:Parent Commit #4:Branch Bug-fix-experimental"
 23. vi README.md<br/>
-22. git status<br/>
+24. git status<br/>
+
+Bug-fix-experimental: Commit 9<br/>
+25. git add README.md<br/>
+26. git commit -m "Commit #8:Parent Commit #7:Branch Bug-fix-experimental"
+27. vi README.md<br/>
+28. git status<br/>
