@@ -29,3 +29,9 @@ Bug-fix Branch:Commit 4<br/>
 14. git log<br/>
 15. vi README.md<br/>
 16. git status<br/>
+
+Bug-fix-experimental: Commit 7<br/>
+17. git checkout -b bug-fix-experimental f41a49c21b3c555efea5124b2fe463fc6d214fd8<br/>
+18. git branch<br/>
+19. vi README.md<br/>
+20. git status<br/>
